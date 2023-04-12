@@ -50,3 +50,6 @@ booleans.push(false)
 booleans.shift
 # the unshift method will add the value included in the parameter to the beginning of the array, index position 0
 booleans.unshift(true)
+
+# I've already included a demonstration of understanding on index positions in the comments above each method.
+# If there are 4 values in an array, the first value has an index of 0, the second has an index of 1, the fourth value has an index of 3.
