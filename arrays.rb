@@ -53,3 +53,10 @@ booleans.unshift(true)
 
 # I've already included a demonstration of understanding on index positions in the comments above each method.
 # If there are 4 values in an array, the first value has an index of 0, the second has an index of 1, the fourth value has an index of 3.
+
+# The additional array method I picked up today from the Ruby-Docs site is the `count` method.
+# This method is extremely useful when working with larger arrays that each may include different data types.
+# The `count` method iterates over the chosen array and returns the number of items within the array
+
+string.count 
+#  if run in irb, the above method will return a value of 4 unless the array in altered using other methods.
